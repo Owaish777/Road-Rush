@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Main%20menu/resources/mainMenuButtons.uss?fileID=7433441132597879392&amp;guid=647b91510a4a0af498756ab5f760890b&amp;type=3#mainMenuButtons" />
+    <ui:VisualElement name="background" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Main%20menu/resources/image.jpg?fileID=2800000&amp;guid=70a31ff781341d44f8a4f958fe6ee023&amp;type=3#image&apos;);">
+        <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: column-reverse; align-items: center; justify-content: center; align-self: center;">
+            <ui:Button text="Exit" display-tooltip-when-elided="true" name="exit" class="mainMenuButtons" />
+            <ui:Button text="Play" display-tooltip-when-elided="true" name="play" class="mainMenuButtons" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
