@@ -1,0 +1,6 @@
+.controls {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    width: 308%;
+    height: -3%;
+}

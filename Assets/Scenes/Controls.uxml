@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scenes/Controls.uss?fileID=7433441132597879392&amp;guid=ca37031521970a741bd80aaaa4012ba4&amp;type=3#Controls" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: column-reverse;">
+        <ui:Label tabindex="-1" text="Space - Brake" display-tooltip-when-elided="true" class="controls" />
+        <ui:Label tabindex="-1" text="A - Turn Left" display-tooltip-when-elided="true" class="controls" />
+        <ui:Label tabindex="-1" text="D - Turn Right" display-tooltip-when-elided="true" class="controls" />
+        <ui:Label tabindex="-1" text="S - Reverse" display-tooltip-when-elided="true" class="controls" />
+        <ui:Label tabindex="-1" text="W - Forward" display-tooltip-when-elided="true" class="controls" />
+    </ui:VisualElement>
+</ui:UXML>

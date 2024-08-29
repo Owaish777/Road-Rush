@@ -20,6 +20,8 @@ public class CarController : MonoBehaviour
     [SerializeField] private Transform frontLeftWheelTransform, frontRightWheelTransform;
     [SerializeField] private Transform rearLeftWheelTransform, rearRightWheelTransform;
 
+    [SerializeField] private GameObject pauseMenu;
+
 
     private void FixedUpdate()
     {
@@ -39,6 +41,13 @@ public class CarController : MonoBehaviour
 
         // Breaking Input
         isBreaking = Input.GetKey(KeyCode.Space);
+
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            pauseMenu.SetActive(true);
+        }
+
+        
     }
 
     private void HandleMotor()

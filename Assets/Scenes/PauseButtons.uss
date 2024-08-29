@@ -1,0 +1,14 @@
+.PauseButtons {
+    width: 386px;
+    height: 36%;
+    font-size: 119px;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 0);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    -unity-text-outline-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}

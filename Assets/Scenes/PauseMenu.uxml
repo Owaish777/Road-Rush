@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scenes/PauseButtons.uss?fileID=7433441132597879392&amp;guid=0a43879300ad95c42928a62af829072f&amp;type=3#PauseButtons" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-self: center; justify-content: center; align-items: center; flex-direction: column;">
+        <ui:VisualElement style="flex-grow: 0.5; background-color: rgba(255, 0, 0, 0); justify-content: center; -unity-background-image-tint-color: rgba(152, 152, 152, 0.43); background-image: url(&apos;project://database/Assets/Objects/Icons/UI%20Elements/Extras/Rects/SquareRy8.png?fileID=2800000&amp;guid=02bc6413e9c541c4c8fd2e7501c27232&amp;type=3#SquareRy8&apos;); height: 784%; width: 212%; align-items: center; align-self: auto; flex-direction: column; flex-wrap: nowrap; flex-shrink: 1;">
+            <ui:Button text="Play" display-tooltip-when-elided="true" name="play" class="PauseButtons" />
+            <ui:Button text="Exit" display-tooltip-when-elided="true" name="exit" class="PauseButtons" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
